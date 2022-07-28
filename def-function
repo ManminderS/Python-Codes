@@ -1,0 +1,7 @@
+from unicodedata import name
+
+
+def print_name(name): # defined a function with name as variable
+    print(f"Name is {name}") # declaring the f-String with name
+
+print(name)
