@@ -45,6 +45,7 @@ while True:
 
 N = 3
 for x in range(ec2):
- uid = str(''.join([random.choice(string.ascii_letters + string.digits)])) #for ec2 in range(10)]))
+ uid = str(''.join([random.choice(string.ascii_letters + string.digits) for z in range(10)]))
  print('-' * 90)
  print('{}-{}'.format(dept[0 : N], uid))
+ 
